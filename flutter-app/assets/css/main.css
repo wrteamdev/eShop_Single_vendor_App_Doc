@@ -1902,7 +1902,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled,  input[type="reset
 /* Header */
 
 #header {
-	background: #FE7E7B;
+	background: #00BBD4;
 	color: #01579B;
 	height: 100%;
 	position: fixed;
