@@ -19,7 +19,7 @@
 					<li><a href="#setupJDK" style="color:#ff0039">How to Setup latest Java jdk on windows</a></li>
 					<li><a href="#setup" style="color:#ff0039">How to setup Flutter</a></li>
 
-					<li><a href="#flutter2" style="color:#ff0039">Upgrade to flutter 2.x</a></li>
+					<li><a href="#flutter2" style="color:#ff0039">Upgrade to flutter 3.x</a></li>
 					<li><a href="#open" style="color:#ff0039">How to first run project</a></li>
 					<li><a href="#appname" style="color:#ff0039">How to change App name</a></li>
 					<li><a href="#version" style="color:#ff0039">How to change App Version</a></li>
@@ -103,7 +103,7 @@
             <li>Download latest Java jdk by clicking below link. <br> (<a style="color: #3C55D1;" href="https://www.oracle.com/java/technologies/downloads/">JAVA jdk</a>)</li>
             <li>Download latest Java JDK for your version 32 bit or JDK download 64 bit.</li>
             <br>
-            <img src="images/java-jdk.png" alt="Flutter UI Component" />
+            <img src="images/jdk.png" alt="Flutter UI Component" />
             <br><br>
             <li>When you click on the Installation link the popup will be open. Click on I reviewed and accept the Oracle Technology Network License Agreement for Oracle Java SE development kit and you will be redirected to the login page. If you don’t have an oracle account you can easily sign up by adding basics details of yours.</li>
             <br><br>
@@ -154,7 +154,7 @@
 
 									<li>Download Lastest Flutter SDK from below image</li>
 
-									<li><a href="https://docs.flutter.dev/development/tools/sdk/releases">Flutter sdk
+									<li><a style="color: #3C55D1;" href="https://docs.flutter.dev/development/tools/sdk/releases">Flutter sdk
 											Here</a></li>
 									<br>
 									<img src="images/setup.png" alt="Flutter UI Component" />
@@ -198,13 +198,13 @@
 
 						<section id="flutter2">
 							<div class="container"> <br>
-								<h2>Upgrade to flutter 2.x error</h2>
+								<h2>Upgrade to flutter 3.x error</h2>
 
 								<ol>
 									<li>for upgrade go to terminal in android studio and type flutter upgrade it will
 										automatically pick latest version with stable channel</li>
 
-									<li>If you have updated flutter 2.x after upgrade run flutter doctor. and in flutter
+									<li>If you have updated flutter 3.x after upgrade run flutter doctor. and in flutter
 										doctor if you see below error like licence status unknown.</li><br>
 									<img src="images/upgrade1.png" alt="eShop" />
 									<br><br>
@@ -306,7 +306,9 @@
 
 									<img src="images/version_1.png" alt="eshop" />
 									<br><br>
-
+								<li>Go to android -> app -> build.gradle file and change your app version code and app version name like below image.
+<br><br>
+<img src="images/version_2.png" alt="eshop" />
 									<li>For iOS</li>
 									<li>
 
@@ -370,13 +372,8 @@
 							<div class="container"> <br>
 								<h2>How to change package name</h2>
 								<ol>
-									<li>In the Android pane, click on the little gear icon.Uncheck/Deselect the Compact
-										Empty Middle Packages option.</li>
-									<br>
-									<img src="images/packagename_1.png" alt="eShop" />
-									<br><br>
-
-									<li>Your package directory will now be broken up in individual directories.</li><br>
+								
+									<li>Your package directory you can see like below image.</li><br>
 									<img src="images/packagename_2.png" alt="eShop" />
 									<br><br>
 									<li>Individually select each directory you want to rename, and: Right-click it
