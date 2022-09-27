@@ -410,13 +410,15 @@
 								<h2>How to Change Images in app</h2>
 								<ol>
 
-									<li>Go to Assets > images folder. here you have to change all image to your app
-										image according to diffrent folder diffrent dimension images is used </li><br>
+									<li>Go to Assets > images folder. Here you can change all image to your app
+										image according to diffrent folder different dimension images is used.</li><br>
 
 									<img src="images/img.png" alt="eShop" />
 									<br><br>
 
+									<li>For example, You want to change homelogo.svg image then replace your image with same image name and image extension..</li><br>
 
+				
 								</ol>
 								<div class="section_bdr"></div>
 								</ul>
@@ -456,7 +458,15 @@
 
 									<img src="images/lan2.png" alt="eShop" />
 									<br><br>
+									<li>For example, If you want to change "Welcome to eShop" string in your app then find that string in lib -> language folder .json files and replace with your string.</li><br>
+										<img src="images/lan3.png" alt="eShop" />
+									<br><br>
+									<li>And if you want to change or convert that string in all language or some language then you have to find that string lable in all .json files and replace string with your string name.</li><br>
+									<img src="images/lan4.png" alt="eShop" />
+									<br><br>
+								
 
+									
 
 								</ol>
 								<div class="section_bdr"></div>
@@ -720,9 +730,8 @@
 									<br><img src="images/phone1.png"></a><br><br>
 									<li>Now, we have to add sha1 and sha256 key in firebase, for that perform below
 										given step for that you can do one of the below method</li>
-									<ol>
-										<li>From terminal</li>
-										<ul>
+									
+										
 											<li>Go to the android folder. Right click gradlew file and select Open in
 												Terminal as shown in below image.</li>
 											<br><img src="images/terminal1.png"></a><br><br>
@@ -732,22 +741,7 @@
 											<li>for mac it should be ./gradlew signingReport</li>
 											<br><img src="images/terminal2.png"></a><br>
 
-										</ul>
-										<li>From gradle</li>
-										<ul>
-											<li>click on android > app > build.gradle. in upar right corner there is
-												option open
-												for editing in android studio. </li>
-
-
-											<br><img src="images/sha1.png"></a><br /><br />
-											<li>then dialog come here choose new window.in new window wait until gradle
-												build
-												finish after that in right side open gradle panel.in that go to android
-												> app >
-												signingReport.</li>
-										</ul>
-									</ol><br>
+										
 									<img src="images/sha2.png"></a><br><br>
 									<li>now take debug sha and sha256 will print copy that and add it in
 										firebase console.and also add sha-256 to firebase console.</li><br>
@@ -823,13 +817,19 @@
 								<h2>How to set Notification</h2>
 								<h4><a style="color: #f90849;" href="https://www.youtube.com/watch?v=TSJ6Z19Z2UU">Click here to find video doc.</a></h4>
 								<ol>
+									<li> Go to Cloud Messaging and if Cloud Messaging Api is disable then first enable it like below image.
+									</li>
+									<br><img src="images/noti3.png"><br><br>
+									<li> Enable Cloud Messaging Api from google cloud console after refresh your firebase project cloud messaging.
+									</li>
+									<br><img src="images/noti4.png"><br><br>
 									<li> Get server key from your
 										firebase project and
 										set in panel.
 									</li>
-									<br /><img src="images/noti1.png"></a><br /><br />
+									<br><img src="images/noti1.png"><br><br>
 									<li>now add in admin panel></li>
-									<br /><img src="images/noti2.png"></a>
+									<br><img src="images/noti2.png">
 								</ol>
 
 								<br><br>
@@ -1196,9 +1196,9 @@ android:value="{{YOUR_API_KEY_HERE}}" /></xmp>
 							<div class="container">
 								<h2>How to set Currency code for Application</h2>
 								<ol>
-									<li>Select your Country supported Locale value from here</li>
+									<li>Select your Country currency code and currency symbol.</li>
 									<li>Go to System > Store setting </li><br>
-									<a href="#timeslot"><img src="images/localecurrency.png"></a><br><br>
+									<a href="#currency"><img src="images/localecurrency.png"></a><br><br>
 								</ol>
 								<div class="section_bdr"></div>
 							</div>
