@@ -115,6 +115,7 @@
                                     <li><a href="#store_settings">Store Settings</a></li>
                                     <li><a href="#email_settings">Email Settings</a></li>
                                     <li><a href="#payment_methods">Payment Methods</a></li>
+                                    <li><a href="#shipping_methods">Shipping Methods</a></li>
                                     <li><a href="#time_slots">Time Slots</a></li>
                                     <li><a href="#notification_settings">Notification Settings</a></li>
                                     <li><a href="#contact_us">Contact Us</a></li>
@@ -146,32 +147,105 @@
             <!-- Main content -->
             <article class="col-sm-9 main-content" role="main">
                 <section>
-                    <h3 id="installation"> Step 1. How install the eshop backend and / or web version code on your server by using installation wizard?</h3>
+
                     <ol>
-                        <li>First of all find the <b>eShop</b> folder from the PHP code folder from the downloaded
-                            package and upload the code to your server on your desired domain or subdomain. <b>Like for example, You have https://eshop.com domain with you</b></li>
-                        <li>Create a new database from cPanel</li>
-                        <li>Create new user for the database & give all the privileges to the user</li>
-                        <li>Afrer creation of user visit <code>https://eshop.com/install</code></li>
+                        <li>
+                            Login into your cPanel.
+                        </li>
                         <div class="promo">
-                            <img class="bordered" src="assets/img/installer-1.png" alt="sample1">
-                            <p>Sample image</p>
+                            <img src="assets/img/cp-1.png" class="bordered">
                         </div>
+                        <li>
+                            Go to database in your cPanel
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-2.png" class="bordered">
+                        </div>
+                        <li>
+                            Enter database name and Create a new database.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-3.png" class="bordered">
+                        </div>
+                        <li>
+                            Create Database user.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-4.png" class="bordered">
+                        </div>
+                        <li>
+                            Assign Database to the user.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-5.png" class="bordered">
+                        </div>
+                        <li>
+                            Open File manager now.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-6.png" class="bordered">
+                        </div>
+                        <li>
+                            Go to public_html or public_html/yourDomain.in folder in the file manager,
+                            whichever folder your domain points to.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-7.png" class="bordered">
+                        </div>
+                        <li>
+                            Upload the downloaded zip in public_html or public_html/yourDomain.in folder.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-8.png" class="bordered">
+                        </div>
+                        <li>
+                            unzip or extract the <b>Code vX.X - upload this on server.zip</b> file that you
+                            have just uploaded.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-9.png" class="bordered">
+                        </div>
+                        <li>
+                            verify that all these files are in public_html or public_html/yourDomain.in
+                            folder.
+                        </li>
+                        <div class="promo">
+                                <img src="assets/img/cp-10.png" class="bordered">
+                        </div>
+
+                        <h3 id="installation"> Step 1. How install the eshop backend and / or web version code on your
+                            server by using installation wizard?</h3>
                         <ol>
-                            <li><span style="color:blue;">Database Hostname</span> : Enter the hostname.</li>
-                            <li><span style="color:blue;">Database Username</span> : Enter the username that have access
-                                to the database.</li>
-                            <li><span style="color:blue;">Database Password</span> : Enter the password.</li>
-                            <li><span style="color:blue;">Database Name</span> : Enter the name of database.</li>
-                            <li><span style="color:blue;">Admin Mobile</span> : Enter the mobile number <b>(The mobile
-                                    number will be used further for user authentication)</b></li>
-                            <li><span style="color:blue;">Admin Password</span> : Enter the password number<b>(The
-                                    password will be used further for user authentication)</b></li>
-                            <li><span style="color:blue;">App Url</span> : Enter the your app / domain url. Make sure you enter the complete URL with the correct protocol say http:// or https:// </li>
+                            <li>First of all find the <b>eShop</b> folder from the PHP code folder from the downloaded
+                                package and upload the code to your server on your desired domain or subdomain. <b>Like
+                                    for example, You have https://eshop.com domain with you</b></li>
+                            <li>Create a new database from cPanel</li>
+                            <li>Create new user for the database & give all the privileges to the user</li>
+                            <li>Afrer creation of user visit <code>https://eshop.com/install</code></li>
+                            <div class="promo">
+                                <img class="bordered" src="assets/img/installer-1.png" alt="sample1">
+                                <p>Sample image</p>
+                            </div>
+                            <ol>
+                                <li><span style="color:blue;">Database Hostname</span> : Enter the hostname.</li>
+                                <li><span style="color:blue;">Database Username</span> : Enter the username that have
+                                    access
+                                    to the database.</li>
+                                <li><span style="color:blue;">Database Password</span> : Enter the password.</li>
+                                <li><span style="color:blue;">Database Name</span> : Enter the name of database.</li>
+                                <li><span style="color:blue;">Admin Mobile</span> : Enter the mobile number <b>(The
+                                        mobile
+                                        number will be used further for user authentication)</b></li>
+                                <li><span style="color:blue;">Admin Password</span> : Enter the password number<b>(The
+                                        password will be used further for user authentication)</b></li>
+                                <li><span style="color:blue;">App Url</span> : Enter the your app / domain url. Make
+                                    sure you enter the complete URL with the correct protocol say http:// or https://
+                                </li>
+                            </ol>
                         </ol>
-                    </ol>
-                    <p> Now click <span style="color:blue;">Install</span>. Thats it! You are ready to run your first
-                        ecommerce App : <b>https://eshop.com/</b></p>
+                        <p> Now click <span style="color:blue;">Install</span>. Thats it! You are ready to run your
+                            first
+                            ecommerce App : <b>https://eshop.com/</b></p>
                 </section>
 
                 <section>
@@ -184,7 +258,7 @@
                         </li>
                     </ul>
                     <ol>
-                        <li style="color:red;" type="">Goto http://eshop.in/admin/client-api-keys/</li>
+                        <li style="color:red;" type="">Goto http://eshopweb.store/admin/client-api-keys/</li>
                         <li style="color:red;" type="">You can generate secret as per image below.</li>
                         <li style="color:red;" type="">Set the secret on the app side as JWT Secret Key. </li>
                         <div class="promo">
@@ -196,18 +270,25 @@
                 <section>
                     <h3 id="firebase_config">Configure the firebase setup for login web version</h3>
                     <div class="alert alert-warning"><b>Note</b> : This step is very much important for web version
-                        login, register and forget password feature to work. So please follow the below steps carefully. </div>
+                        login, register and forget password feature to work. So please follow the below steps carefully.
+                    </div>
                     <ul>
-                        <h3><li style="color:red;" type="1" > Create Firebase Project</li></h3>
+                        <h3>
+                            <li style="color:red;" type="1"> Create Firebase Project</li>
+                        </h3>
                     </ul>
                     <ol type="A">
-                        <li style="color:red;" type="">Goto <a href="https://console.firebase.google.com/" target="_blank"> >> Firebase console << </a>.</li>
-                        <li style="color:red;" type="">Register a new account or try to log in with existing google accout.</li>
+                        <li style="color:red;" type="">Goto <a href="https://console.firebase.google.com/"
+                                target="_blank"> >> Firebase console << </a>.</li>
+                        <li style="color:red;" type="">Register a new account or try to log in with existing google
+                            accout.</li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/consolepage.png" alt="sample Image">
                             <p>Sample image</p>
                         </div>
-                        <li style="color:red;" type="">Once logged in, you can see firebase console dashboard. Click on Add Project. Provide a project name, and then select country and then after that click on Create Project. For example, see the below image.</li>
+                        <li style="color:red;" type="">Once logged in, you can see firebase console dashboard. Click on
+                            Add Project. Provide a project name, and then select country and then after that click on
+                            Create Project. For example, see the below image.</li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/AddProject.png" alt="sample Image">
                             <p>Sample image</p>
@@ -216,12 +297,14 @@
                             <img class="bordered" src="assets/img/CreateProject.png" alt="sample Image">
                             <p>Sample image</p>
                         </div>
-                        <li style="color:red;" type="">Once the project has been created, it will automatically redirect to Firebase dashboard screen.</li>
+                        <li style="color:red;" type="">Once the project has been created, it will automatically redirect
+                            to Firebase dashboard screen.</li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/Dashboard.png" alt="sample Image">
                             <p>Sample image</p>
                         </div>
-                        <li style="color:red;" type="">As eShop Front End(Web version) is a web project, you need to add web project/application to the firebase project.</li>
+                        <li style="color:red;" type="">As eShop Front End(Web version) is a web project, you need to add
+                            web project/application to the firebase project.</li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/Dashboard_1.png" alt="sample Image">
                             <p>Sample image</p>
@@ -231,7 +314,10 @@
                             <img class="bordered" src="assets/img/authentication.png" alt="sample Image">
                             <p>Sample image</p>
                         </div>
-                        <li style="color:red;" type="">Now at the bottom of the page, in "Authorized domains", localhost and a Firebase domain are automatically added. Here we've to add domain name without http:// and https:// whever eShop Front End(Web Version) Website will get hosted. If you're using www as prefix of domain name then you must have to add that.</li>
+                        <li style="color:red;" type="">Now at the bottom of the page, in "Authorized domains", localhost
+                            and a Firebase domain are automatically added. Here we've to add domain name without http://
+                            and https:// whever eShop Front End(Web Version) Website will get hosted. If you're using
+                            www as prefix of domain name then you must have to add that.</li>
                         <li style="color:red;" type="">Now add your domain with www. as prefix like www.myeShop.com</li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/add_domain.png" alt="sample Image">
@@ -242,13 +328,16 @@
                             <img class="bordered" src="assets/img/web_setting_details.png" alt="sample Image">
                             <p>Sample image</p>
                         </div>
-                        <li style="color:red;" type="">Goto Project settings and scroll down you will find created web App there you find config option that will have firebase settings for front end. </li>
-                        <li style="color:red;" type="">here you have to set all details except the two fields <b>1. databaseURL & 2. measurementId. </b> Here you can set only <b>test</b> word. </li>
+                        <li style="color:red;" type="">Goto Project settings and scroll down you will find created web
+                            App there you find config option that will have firebase settings for front end. </li>
+                        <li style="color:red;" type="">here you have to set all details except the two fields <b>1.
+                                databaseURL & 2. measurementId. </b> Here you can set only <b>test</b> word. </li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/web_setting_config.png" alt="sample Image">
                             <p>Sample image</p>
                         </div>
-                        <li style="color:red;" type="">You need to set this details in eShop admin panel -> Web Settings page from this Project settings page in firebase dashboard option </li>
+                        <li style="color:red;" type="">You need to set this details in eShop admin panel -> Web Settings
+                            page from this Project settings page in firebase dashboard option </li>
                         <div class="promo">
                             <img class="bordered" src="assets/img/web_settings.png" alt="sample Image">
                             <p>Sample image</p>
@@ -260,13 +349,15 @@
                     <h1 id="update">Auto Update</h1>
                     <h3>How to auto update your admin panel or web version to latest version?</h3>
                     <div class="alert alert-warning"><b>Note</b> : If you are upgrading your from very old version then
-                        please update the system in sequence one after the another. Don't skip any version in between.</div>
+                        please update the system in sequence one after the another. Don't skip any version in between.
+                    </div>
                     <ol>
                         <li>Find <b>update from vX.X to vX.X.X.zip</b> file from downloded PHP source code.</li>
                         <li>Visit <code>http://eshop.com/admin/updater</code>
                         </li>
                         <li>You will see simple instructions, current version to latest version information and
-                            <b>"Update The System"</b> button. </li>
+                            <b>"Update The System"</b> button.
+                        </li>
                         <li>Upload <b>update.zip</b> file.</li>
                         <li>Click on that Update Button. </li>
                         <li>That's all. You have successfully updated your system from older version to newer one.</li>
@@ -281,9 +372,9 @@
                     Friday.
                     <br />
                     <h3>For Web or backend related issues contact here, </h3>
-                    <a href='https://join.skype.com/invite/ulxy3uPftGfT'>Drop a Message on Skype</a> 
+                    <a href='https://join.skype.com/invite/ulxy3uPftGfT'>Drop a Message on Skype</a>
                     <h3>And for mobile application related issues contact here, </h3>
-                    <a href='https://join.skype.com/invite/VkdXAk8mu9ay' >Drop a Message on Skype</a> 
+                    <a href='https://join.skype.com/invite/VkdXAk8mu9ay'>Drop a Message on Skype</a>
                 </section>
                 <section>
                     <h2 id="tabs">Website Overview</h2>
@@ -316,10 +407,7 @@
                                 count</span></li>
 
                     </ul>
-                    <div class="promo">
-                        <img class="bordered" src="assets/img/theme.jpg" alt="sample3">
-                        <p>Sample image</p>
-                    </div>
+                
                     <p style="color:red;">The Above web page contains Customize The Theme on the right panel like No
                         Navbar border,Body small text,Navbar small text,Sidebar nav small text,Footer small text,Sidebar
                         nav flat style,Sidebar nav child indent,Navbar Variants,Dark
@@ -968,9 +1056,7 @@
                     <p style="color:red;">We Can add New Slider and delete Slider by following Steps :</p>
                     <h2>Step 1:Adding New Slider in the Home Image Slider</h2>
                     <p style="color:green;">Click on Add slider Tab Present On The Right Side</p>
-                    <div class="promo">
-                        <img class="bordered" src="assets/img/home_slider2_tab.jpg" alt="sample3">
-                    </div>
+                
                     <li style="color:green;" type="circle">Clicking to the Add Slider tab a new window will be displayed
                         as follows</li>
                     <div class="promo">
@@ -1101,9 +1187,7 @@
                     <p style="color:red;">We Can add New Promo Code and delete Promo Code by following Steps :</p>
                     <h2>Step 1:Adding New Promo Code in the Promo Code List</h2>
                     <p style="color:green;">Click on Add Promo Code Tab Present On The Right Side</p>
-                    <div class="promo">
-                        <img class="bordered" src="assets/img/promo_code2.jpg" alt="sample3">
-                    </div>
+                
                     <li style="color:green;" type="circle">Clicking to the Add Promo Code tab a new window will be
                         displayed as follows</li>
                     <div class="promo">
@@ -1689,6 +1773,352 @@
                     </ul>
 
                     <br>
+
+                    <h3 id="shipping_methods">Shipping Methods</h3>
+                    <ul>
+                        <li style="color:red;" type="">
+                            In Shipping you can select shippings method for deliver orders to customers.
+                        </li>
+                        <li style="color:red;" type="">
+                            currently 2 shipping methods are available in Eshop. if you want you can use both
+                            shipping method at a time.
+                        </li>
+                    </ul>
+                    <h6><b>Type :</b></h6>
+                    <ol>
+                        <li>
+                            Local Shipping
+                        </li>
+                        <li>
+                            Standard Shipping
+                            <ol>
+                                <li>
+                                    Shiprocket
+                                </li>
+                            </ol>
+                        </li>
+                        </ul>
+                    </ol>
+                    <h6><b>How to change shipping Methods:</b></h6>
+                    <p>
+
+                    <div class="simplelightbox-gallery">
+                        <a href="assets/img/shipping_method.png">
+                            <!-- media -->
+                            <div class="promo">
+                            <img src="assets/img/shipping_method.png" class="bordered" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    </p>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">Local Shipping Method</h2>
+                        <p>
+                        <ul>
+                            <li>In this method you can assign your delivery boy for deliver customer orders.</li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">Standard Shipping</h2>
+                        <p>
+                        <ul>
+                            <li>in this method you can use other currier services like shiprocket for deliver orders
+                                to customers.</li>
+                        </ul>
+                        <ol>
+                            <h5>
+                                <li>Shipprocket</li>
+                            </h5>
+                        </ol>
+                        <ul>
+                            Shiprocket, a product of Delhi based BigFoot Retail solution, is India's first automated
+                            shipping software that aims reduce ecommerce shipping to its bare bones. ... You can
+                            print bulk shipping labels and ship your products to in and around the world using a
+                            single platform.
+                        </ul>
+                        </p>
+                    </section>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">Account</h2>
+                        <p>
+                        <ul>
+                            <li>First Create shiprockdet account<a href="https://app.shiprocket.in/register"
+                                    target="_blank"> Click here.</a></li>
+                        </ul>
+                        </p>
+                        <p></p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/shiprocket_account.png">
+                                <!-- media -->
+                                <div class="promo">
+                                <img src="assets/img/shiprocket_account.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p>
+                    </section>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">Recharge Wallet</h2>
+                        <p>
+                        <ul>
+                            <li>after successfully login you have to recharge you shiprocket wallet without wallet
+                                balance you can not use their services</li>
+                        </ul>
+                        </p>
+                        <p></p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/shiprocket_wallet.png">
+                                <!-- media -->
+                                <div class="promo">
+                                <img src="assets/img/shiprocket_wallet.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p>
+                    </section>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">API Config</h2>
+                        <p>
+                        <ul>
+                            <li>So now to use shiprocket in your system first go to api Config from <a
+                                    href="https://app.shiprocket.in/api-user" target="bla
+                                ">here</a></li>
+                        </ul>
+                        </p>
+                        <p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/shiprocketApi_config.png">
+                                <!-- media -->
+                                <div class="promo">
+                                <img src="assets/img/shiprocketApi_config.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p>
+                        <p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/create_shiprocketApi.png">
+                                <!-- media -->
+                                <div class="promo">
+                                <img src="assets/img/create_shiprocketApi.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p>
+                        <p>
+                        <ul>
+                            <li>here you have to create user for use shiprockdet in your system.</li>
+                        </ul>
+                        </p>
+                        <p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/create_shiprocketApi2.png">
+                                <!-- media -->
+                                <div class="promo">
+                                <img src="assets/img/create_shiprocketApi2.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p>
+                        <p>
+                        <ul>
+                            <li>
+                                <h5>After create user you have to add user credentials in you admin panel here.</h5>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/shipping_methods.png">
+                                <!-- media -->\
+                                <div class="promo">
+                                <img src="assets/img/shipping_methods.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p>
+                    </section>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">How it will work?</h2>
+                        <p><br>
+                        <h4>1. Add Pickup Location.</h4>
+                        <ul>
+                            <li>shiprocket uses pickup location for pickup orders from owner</li>
+                            <li>in your system only seller can add pickup location, from here seller can add
+                                pickup
+                                location.</li>
+                        </ul>
+                        </p>
+                        <p>
+                        <div class="simplelightbox-gallery">
+                            <a href="assets/img/seller_pickup_location.png">
+                                <!-- media -->
+                                <div class="promo">
+                                <img src="assets/img/seller_pickup_location.png" class="image-doc" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        </p><br>
+                        <p>
+                        <h5>after adding pickup location admin have to verified pickup location from admin panel
+                            and
+                            also from shiprocket dashboard</h5>
+                        </p>
+                        <ol>
+                            <p>
+                                <li>verify pickup location from admin panel</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/admin_pickup_location.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/admin_pickup_location.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <li>verify pickup location from shiprocket dashboard</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/shiprocket_pickup_location.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/shiprocket_pickup_location.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/shiprocket_verify_pickup_location.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/shiprocket_verify_pickup_location.png" class="image-doc"
+                                        alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            </p>
+                        </ol>
+                        <br>
+                        <h4>2. Add product or Edit product.</h4>
+                        <p>
+                        <ul>
+                            <li>after successfully verify pickup location you can add/edit product like this</li>
+                            <ol>
+                                <li style="color:red;" type="">For simple product </li>
+                                <div class="simplelightbox-gallery">
+                                    <a href="assets/img/add_simple_product.png">
+                                        <!-- media -->
+                                        <div class="promo">
+                                        <img src="assets/img/add_simple_product.png" class="image-doc" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <li style="color:red;" type="">For variable product </li>
+                                <div class="simplelightbox-gallery">
+                                    <a href="assets/img/add_variable_product.png">
+                                        <!-- media -->
+                                        <div class="promo">
+                                        <img src="assets/img/add_variable_product.png" class="image-doc" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </ol>
+                        </ul>
+                        </p>
+                    </section>
+                    <section class="docs-intro" id="item-6-7">
+                        <h2 class="h2">How to create shiprocket order?</h2>
+                        <p>
+                        <ul>
+                            <li>after getting orders and want deliver order using shiprocket you have to create
+                                shiprocket order
+                                Go to edit order in you panel </li>
+                        </ul>
+                        </p>
+                        <ol>
+                            <li style="color:red;" type="">Select Pickup Location for which you want to create parcel and click on Create
+                                Shiprocket Order button.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/create_order.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/create_order.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <li style="color:red;" type="">After create order generate AWB code(its unique number use for identify order) like
+                                this.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/generate_awb.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/generate_awb.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <li style="color:red;" type="">After generate AWB Send pickup request for scheduled you shipping.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/send_pickup_request.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/send_pickup_request.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <li style="color:red;" type="">Generate and download Label.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/generate_label.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/generate_label.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/download_label.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/download_label.png" class="image-doc" alt="">
+                                    </div>
+
+                                </a>
+                            </div>
+                            <li style="color:red;" type="">Generate and download Invoice.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/generate_invoice.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/generate_invoice.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/download_invoice.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/download_invoice.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <li style="color:red;" type="">Cancel shiprocket order.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/cancel_order.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/cancel_order.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <li style="color:red;" type="">shiprocket order traking.</li>
+                            <div class="simplelightbox-gallery">
+                                <a href="assets/img/order_tracking.png">
+                                    <!-- media -->
+                                    <div class="promo">
+                                    <img src="assets/img/order_tracking.png" class="image-doc" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </ol>
+                    </section>
 
                     <h1 id="time_slots">Time Slots</h1>
                     <div class="promo">
