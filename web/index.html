@@ -45,7 +45,7 @@
         </nav>
         <!-- END Top navbar & branding -->
         <!-- Banner -->
-        <div class="banner auto-size" style="background-color: #c74e4636">
+        <div class="banner auto-size" style="background-color: #dfd6f1">
             <div class="container text-black">
                 <h1><strong>eShop Admin Panel
                     </strong> Documentation
@@ -69,6 +69,7 @@
                         <li><a href="#update">Auto Update</a></li>
                     </ul>
                     <li><a href="#support">Support</a></li>
+                    
                     <li>
                         <a href="#tabs">Tabs</a>
                         <ul>
@@ -140,6 +141,7 @@
                             <li><a href="#faq">FAQ</a></li>
                         </ul>
                     </li>
+                    <li><a href="#system_flow">System Flow</a></li>
 
                 </ul>
             </aside>
@@ -376,6 +378,7 @@
                     <h3>And for mobile application related issues contact here, </h3>
                     <a href='https://join.skype.com/invite/VkdXAk8mu9ay'>Drop a Message on Skype</a>
                 </section>
+
                 <section>
                     <h2 id="tabs">Website Overview</h2>
                     <div class="promo">
@@ -2444,6 +2447,129 @@
                         <li style="color:red;" type="">In Answer Field Enter the Answer.</li>
                         <li style="color:red;" type="">Click Add Faq to Add Faq or Close to Close the form. </li>
                     </ol>
+                </section>
+                <section>
+                    <h4 id="system_flow">System Flow</h4>
+                    <h2>Setting Up Product Deliverability</h2>
+                    <h4 id="shipping_flow">Shipping Flow</h4>
+                    <ol>
+                        <li>Go to Admin Panel &gt; System &gt; Store Settings. Choose "Product Deliverability" based on your needs.</li>
+                        <li>Next, visit Admin Panel &gt; System &gt; Shipping Method. Select your preferred shipping method.</li>
+                        <li>If you opt for "Local Shipping":
+                            <ul>
+                                <li>Add zip codes for pincode-based shipping or cities for city-based shipping.</li>
+                                <li>No pickup location required for local shipping.</li>
+                            </ul>
+                        </li>
+                        <li>If you prefer "Standard Shipping":
+                            <ul>
+                                <li>Set up Shiprocket credentials in the shipping settings.</li>
+                                <li>Add zip codes and cities in the admin panel.</li>
+                                <li>Add and approve pickup locations in both Shiprocket and admin panel.</li>
+                                <li>When adding products, assign pickup locations for smooth delivery.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <p class="note"><strong>Note:</strong> Keep your delivery settings updated for a seamless experience.</p>
+              
+                    <h2>How to Set Up Your Home Page</h2>
+                    <h4 id="web_home">Web Frontend Home Section</h4>
+                    <ol>
+                        <li>
+                            <strong>Sliders:</strong> Displayed in the first section.
+                            <br>
+                            <span class="note">Note: Add sliders through the admin panel.</span>
+                        </li>
+                        <li>
+                            <strong>Popular Categories:</strong> Shown in the second section.
+                            <br>
+                            <span class="note">Note: Assign categories to products in the admin panel.</span>
+                        </li>
+                        <li>
+                            <strong>Brands:</strong> Displayed in the third section.
+                            <br>
+                            <span class="note">Note: Assign brands to products in the admin panel.</span>
+                        </li>
+                        <li>
+                            <strong>Offers and Flash Sales:</strong> Shown in the fourth section.
+                            <br>
+                            <span class="note">Note: Add two entries to the feature section and one entry for offers or flash sales in the admin panel.</span>
+                        </li>
+                    </ol>
+                    <h2>Configuring Orders with Bank Transfer Payments</h2>
+                    <h4 id="web_home">Bank Transfer Workflow</h4>
+                    <ol>
+                        <li>
+                            Configure the bank details in the <strong>Payment Methods Settings</strong> within the admin panel. 
+                            Customers will select the bank transfer option during checkout. 
+                            After placing the order, the customer must upload a payment receipt.
+                            <br>
+                            <em><strong>Note:</strong> The customer must submit the payment receipt from the order details page for admin verification.</em>
+                        </li>
+                        <li>
+                            Once the receipt is uploaded:
+                            <ol>
+                                <li>Navigate to the admin panel.</li>
+                                <li>Go to the <strong>Orders</strong> section.</li>
+                                <li>Identify orders with the bank transfer payment method and proceed to:
+                                    <ul>
+                                        <li><strong>Admin panel -> Customers -> Transaction</strong></li>
+                                    </ul>
+                                </li>
+                                <li>Update the transaction status to "Success," and include the transaction ID and a message. Save the updates.</li>
+                                <li>Next, go to:
+                                    <ul>
+                                        <li><strong>Admin panel -> Orders -> View Orders</strong></li>
+                                    </ul>
+                                </li>
+                                <li>Change the order status to "Accepted" under the bank transfer section. You can then update the order status as required.</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <h2>Difficulty in User Registration?</h2>
+<h4 id="web_home">Configuration for Registration</h4>
+<ol>
+    <li>There are two methods for configuring user registration:</li>
+    <li>
+        <ol type="a">
+            <li>Firebase Settings</li>
+            <li>SMS Gateway Settings</li>
+        </ol>
+    </li>
+    
+    <li>
+        <strong>Authentication Method</strong>
+        <ul>
+            <li>Navigate to the admin panel.</li>
+            <li>Go to <em>System</em>.</li>
+            <li>Select <em>Authentication Method</em>.
+            
+            </li>
+            <ul>
+                <li>Firebase Authentication</li>
+                <li>Custom SMS Gateway OTP based</li>
+            </ul>
+        </ul>
+    </li>
+    <li>
+        <strong>Firebase Settings:</strong>
+        <ul>
+            <li>Navigate to the admin panel.</li>
+            <li>Go to <em>Web Settings</em>.</li>
+            <li>Select <em>Firebase</em>.</li>
+        </ul>
+    </li>
+    
+    <li>
+        <strong>SMS Gateway Settings:</strong>
+        <ul>
+            <li>Navigate to the admin panel.</li>
+            <li>Go to <em>System</em>.</li>
+            <li>Select <em>SMS Gateway Settings</em>.</li>
+        </ul>
+    </li>
+</ol>
+
                 </section>
             </article>
             <!-- END Main content -->
