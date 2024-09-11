@@ -1382,51 +1382,36 @@
                             <br />
                             <div class="sec-content">
                                 <ol>
-                                    <li>Open lib -> settings.dart file.</li>
-                                    <li>Add your host url here [Without http ot https]</li>
-
+                                    <li>Open your admin panel.</li>
+                                    <li>Go to System > Store Settings.</li>
+                                    <li>add android playstore link, ios appstore link, one word scheme and Host name.
+                                        (Note: after release apps in appstore and playstore don't forgot to add your
+                                        link in admin panel)
+                                    </li>
+                                    <br>
+                                    <img src="images/deeplink-panelsetting.png" alt="eShop">
+                                    <br><br>
+                                    <li>For android go to android > app > src > main > AndroidManifest.xml and change
+                                        scheme and your DomainName here
+                                    </li>
+                                    <br />
+                                    <img src="images/deeplink-androidmanifest.png" alt="eShop">
+                                    <br><br>
+                                    <li>For ios go to ios > Runner > Info.plist and change scheme
+                                    </li>
+                                    <br>
+                                    <img src="images/deeplink-ios.png" alt="eShop">
+                                    <br><br>
+                                    <li>Change your DomainName in lib > helper > Constant.dart.
+                                    </li>
+                                    <br>
                                     <img src="images/nativeLink1.png" alt="eShop">
-
-                                    <li> Go to android -> app -> main -> AndroidManifest.xml file. Also add your
-                                        host url here [Without http ot https]
-                                    </li>
                                     <br>
-                                    <img src="images/nativeLink2.png" alt="eShop">
-                                    <li> Open your code in xcode -> Runner -> Signing & Capabilities -> Associated
-                                        Domains in add your domain here. [Without http ot https]
-                                    </li>
-                                    <br>
-                                    <img src="images/nativeLink3.png" alt="eShop">
-                                    <li>First of all download this google files from the link :<a
-                                            href="https://drive.google.com/drive/folders/1LbSXPmTRvz6-VWdr4isJz9AE00p8ynJ6"
-                                            target="_blank">Server Side Deeplink Files</a>
-                                    </li>
-                                    <li>Open both files in the any text editor and follow below steps
-                                    </li>
-                                    <br>
-                                    <img src="images/nativeLink4.png" alt="eShop">
-                                    <br>
-                                    <img src="images/deep-link-2.png" alt="eShop">
-                                    <li>After above changes save both files (Note- Keep name proper same of both
-                                        files)
-                                    </li>
-                                    <li>Open server > Go to admin panel root folder
-                                    </li>
-                                    <li>You will get .well-known folder on root directory
-                                    </li>
-                                    <li>If you don't get that folder from setting enable setting visible hidden
-                                        files then check
-                                    </li>
-                                    <li>After the change setting still you don't find the files, Create new
-                                        directory named <b>.well-known</b> (Make sure name starts with dot[.])
-                                    </li>
-                                    <li>Add both above saved files inside the <b>.well-known</b> folder.
-                                    </li>
-
                                 </ol>
                                 <br />
                             </div>
                         </section>
+
 
                         <section id="map1">
                             <div class="container"><br>
