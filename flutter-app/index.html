@@ -16,6 +16,7 @@
             </header>
             <nav id="nav">
                 <ul>
+                    <li><a href="#requiredSoftware" style="color:#ff0039">Required Software</a></li>
                     <li><a href="#setupJDK" style="color:#ff0039">How to Setup latest Java jdk on
                             windows</a></li>
                     <li><a href="#setup" style="color:#ff0039">How to setup Flutter</a></li>
@@ -49,7 +50,7 @@
                             Authentication(OTP).</a></li>
                     <li><a href='#otp' style="color:#ff0039">How to Change default country code for
                             OTP.</a></li>
-
+                    <li><a href='#firebaseBlazeBilling' style="color:#ff0039">How to Enable Firebase Blaze billing</a>
                     <li><a href='#googleSignIn' style="color:#ff0039">Authenticate with Firebase Using
                             Google Sign-In</a></li>
                     <li><a href='#appleSignIn' style="color:#ff0039">Authenticate with Firebase Using
@@ -119,6 +120,22 @@
                             </div>
                         </div>
 
+                        <section id="requiredSoftware">
+                            <div class="container"><br>
+                                <h3>Required Softwares</h3>
+
+                                <ol>
+                                    <li>Android Studio Koala | 2024.1.1 <br>
+                                    </li>
+                                    <li>Flutter 3.24.3
+                                    </li>
+                                    <li>Java Version 17.0.7
+                                    </li>
+                                </ol>
+                                <div class="section_bdr"></div>
+                                </ul>
+                            </div>
+                        </section>
 
                         <section id="setupJDK">
                             <div class="container"><br>
@@ -478,7 +495,10 @@
                                     </li>
                                     <li>In flutter color code start from 0xff so your have to add your
                                         color hex after
-                                        this 4 digit.your can change primary,second,fontcolor as shown
+                                        this 4 digit.your can change
+                                        primary_app, dark_primary_app, primary, secondary, darkprimary, darksecondary,
+                                        fontcolor
+                                        as shown
                                         in below image.
                                     </li>
                                     <br>
@@ -1031,8 +1051,7 @@
                                 <h2>How to Change default country code for OTP.</h2>
 
                                 <ol><br>
-                                    <li>go to sentOtp.dart file inside that go to setCountryCode()
-                                        method here you have
+                                    <li>go to settings.dart file, here you have
                                         to change country code to your language code.
                                     </li>
                                     <br>
@@ -1042,6 +1061,28 @@
                             </div>
                         </section>
 
+                        <section id="firebaseBlazeBilling">
+                            <div class="container">
+                                <h2 style=" display: inline;">How to Enable Firebase Blaze billing</h2>
+                                <ol>
+                                    <br>
+                                    <ul>
+                                        <li>
+                                            Firebase Phone Authentication OTP not being sent in Android because of
+                                            BILLING_NOT_ENABLED, it’s because Firebase has changed the criteria since
+                                            1st September. Sadly it now requires Blaze (paid) plan to make use of Phone
+                                            Authentication SMS OTPs now. The daily 10 free SMS are still there, but only
+                                            in Blaze plan.
+                                        </li>
+                                        <br>
+                                        <iframe width="700" height="400" src="https://www.youtube.com/embed/RuJuBCYjmhc"
+                                            title="How to enable firebase blaze plan" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </ul>
+                                </ol>
+                            </div>
+                        </section>
 
                         <section id="googleSignIn">
                             <div class="container">
@@ -1616,8 +1657,8 @@
                                 <h2>How to Increase Product Load Limit</h2>
                                 <ol>
                                     <li>you can chnage at a time when request send to server how many
-                                        item will fetch.go
-                                        to lib > helper > Constant.dart
+                                        item will fetch. go
+                                        to lib > settings.dart
                                     </li>
                                     <li>Please check below given image.</li>
                                     <br><img src="images/limit.png">
@@ -1898,9 +1939,9 @@
                                 <p>Its our pleasure to serve our service and support. please contact our
                                     support team.
                                 </p>
-                                <p>Head of Customer Support : Nikita Bhanderi<br> Skype: <a
-                                        href="https://join.skype.com/invite/VkdXAk8mu9ay" target="_blank"
-                                        style='color:#3c55d1'> Nikita Bhanderi</a><br>
+                                <p>Head of Customer Support : Shivani Bhanderi<br> Skype: <a
+                                        href="https://join.skype.com/invite/xH5mEjXCU03T" target="_blank"
+                                        style='color:#3c55d1'> Shivani Bhanderi</a><br>
 
 
                                 </p>
@@ -1956,8 +1997,8 @@
                                             style="color:#0e8bcb;">https://wrteam.in</span>
                                     </a>
 
-                                <p> Skype: <a href="https://join.skype.com/invite/VkdXAk8mu9ay" target="_blank"
-                                        style='color:#3c55d1'> Nikita Bhanderi</a><br>
+                                <p> Skype: <a href="https://join.skype.com/invite/xH5mEjXCU03T" target="_blank"
+                                        style='color:#3c55d1'> Shivani Bhanderi</a><br>
 
 
                                 </p>
